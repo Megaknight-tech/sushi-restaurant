@@ -7,19 +7,31 @@
     <link rel = "stylesheet" href = "style.css"> <!--Підключення  css-->
 </head>
 <body>
-    
+<nav>
     <div class = "info">
-    <div class = "navigator">Головна</div>
-    <div class = "navigator">Меню</div>
-    <div class = "navigator">Про нас</div>
-<div class = "navigator">Контакти</div></div>
-   
-<div class = "about-page"><h1 class="about-title">Sushi restoraunt - це найкращий суші ресторан в Україні</h1>
-      <p>В нас працює понад 3 різних шефа з досвідом 30+ років,</p>
+        <div class = "navigator">Головна</div>
+        <div class = "navigator">Меню</div>
+        <div class = 'navigator' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})"> Про нас </div>
+        <div class = "navigator">Контакти</div>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="toggle">
+            <div class="bars" id="bar1"></div>
+            <div class="bars" id="bar2"></div>
+            <div class="bars" id="bar3"></div>
+        </label>
+    </div>
+</nav>
+<div><img src="https://i0.wp.com/beerclub10.if.ua/wp-content/uploads/2024/11/photo_2024-04-04_17-04-25-e1712239751463.jpg?zoom=2&resize=324%2C324&quality=80&ssl=1"></div>
+
+
+
+<!-- Інформація про ресторан-->
+<div class = "about-page" id="about"><h1 class="about-title">Sushi restoraunt - це найкращий суші ресторан в Україні</h1>
+    <div class="decor">
+      <p>В нас працює понад 3 різних шефа з досвідом 30+ років</p>
       <p>Наш ресторан пройшов провірку ревізор і получив 5 зірок від критиків
       по всій Україні</p>
-      
-      
+      </div>
      </div>
 
 
